@@ -1,4 +1,4 @@
-# consultar-Codigos-de-Enderecamento-Postal
+# consultar cotação atualizada em Scheduled
 ![image](https://github.com/JoaoEduardoFM/ScheduledDeCotacao/assets/90796699/bf3a045d-e9bf-4184-9775-1670bbf4546e)
 
  > Status: Em desenvolvimento ⚠️
