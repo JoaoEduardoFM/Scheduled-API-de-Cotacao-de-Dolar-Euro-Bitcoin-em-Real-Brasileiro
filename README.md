@@ -28,12 +28,6 @@ A "Scheduled De Cotacao" é uma API especialmente projetada para consultar cota�
   </tr>
 </table>
 
-## Desenvolvimento concluído.
-
-1) Busca dados de Codigos de Enderecamento-Postal.
-2) Adicionado Validation.
-
 ## Esses recursos estão em desenvolvimento:
 
 - Em desenvolvimento ⚠️
-- Adicionar validacoes.
