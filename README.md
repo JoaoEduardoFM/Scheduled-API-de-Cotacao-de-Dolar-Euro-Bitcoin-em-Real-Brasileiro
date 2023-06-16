@@ -1,10 +1,9 @@
 # consultar-Codigos-de-Enderecamento-Postal
-![cep](https://github.com/JoaoEduardoFM/Consultar-Codigos-de-Enderecamento-Postal/assets/90796699/eb6b872b-2154-420a-bd3a-d2854909851a)
+![image](https://github.com/JoaoEduardoFM/ScheduledDeCotacao/assets/90796699/bf3a045d-e9bf-4184-9775-1670bbf4546e)
 
  > Status: Em desenvolvimento ⚠️
 
-
-### É uma aplicação planejada por mim, onde realizo a Integração com o sistema da ViaCep.
+### É uma aplicação planejada por mim, onde realizo a Integração com o sistema conomia.awesomeapi e busco a cotação atualizada em um Scheduled.
 A "Scheduled De Cotacao" é uma API especialmente projetada para consultar cotações do Real em relação a outras moedas. Ela utiliza agendamento de tarefas para executar a consulta periodicamente e obter as cotações atualizadas.
 ### Sistema integrado: [https://viacep.com.br/](https://economia.awesomeapi.com.br/)
 
