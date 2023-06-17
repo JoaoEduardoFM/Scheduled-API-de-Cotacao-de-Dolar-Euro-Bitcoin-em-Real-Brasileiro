@@ -1,40 +1,15 @@
-# consultar-Codigos-de-Enderecamento-Postal
-![cep](https://github.com/JoaoEduardoFM/Consultar-Codigos-de-Enderecamento-Postal/assets/90796699/eb6b872b-2154-420a-bd3a-d2854909851a)
+# consultar cotação atualizada em Scheduled
+![image](https://github.com/JoaoEduardoFM/ScheduledDeCotacao/assets/90796699/bf3a045d-e9bf-4184-9775-1670bbf4546e)
 
  > Status: Em desenvolvimento ⚠️
 
-
-### É uma aplicação planejada por mim, onde realizo a Integração com o sistema da ViaCep.
-A API de busca de CEP foi desenvolvida com o objetivo de simplificar a integração de sistemas e aplicativos que necessitam de informações de endereçamento postal. Com uma base de dados abrangente e atualizada, nossa API oferece uma maneira rápida e confiável de obter dados de um CEP de uma determinada cidade brasileira. 
-
-### Sistema integrado: https://viacep.com.br/
+### É uma aplicação planejada por mim, onde realizo a Integração com o sistema conomia.awesomeapi e busco a cotação atualizada em um Scheduled.
+A "Scheduled De Cotacao" é uma API especialmente projetada para consultar cotações do Real em relação a outras moedas. Ela utiliza agendamento de tarefas para executar a consulta periodicamente e obter as cotações atualizadas.
+### Sistema integrado:(https://economia.awesomeapi.com.br/)
 
 ### Retorno exemplo:
 
-    {
-      "cep": "01001-000",
-      "logradouro": "Praça da Sé",
-      "complemento": "lado ímpar",
-      "bairro": "Sé",
-      "localidade": "São Paulo",
-      "uf": "SP",
-      "ibge": "3550308",
-      "gia": "1004",
-      "ddd": "11",
-      "siafi": "7107"
-    }
-     
-## Alguns campos no modelo principal são:
-
-+ logradouro 
-+ complemento
-+ bairro
-+ localidade
-+ uf
-+ ibge
-+ gia
-+ ddd
-+ siafi
+  {"USDBRL":{"code":"USD","codein":"BRL","name":"Dólar Americano/Real Brasileiro","high":"4.8114","low":"4.8107","varBid":"0.0005","pctChange":"0.01","bid":"4.8102","ask":"4.8112","timestamp":"1686880577","create_date":"2023-06-15 22:56:17"},"EURBRL":{"code":"EUR","codein":"BRL","name":"Euro/Real Brasileiro","high":"5.273","low":"5.261","varBid":"-0.0038","pctChange":"-0.07","bid":"5.2611","ask":"5.2691","timestamp":"1686899443","create_date":"2023-06-16 04:10:43"},"BTCBRL":{"code":"BTC","codein":"BRL","name":"Bitcoin/Real Brasileiro","high":"124425","low":"120500","varBid":"2968","pctChange":"2.46","bid":"123694","ask":"123705","timestamp":"1686899464","create_date":"2023-06-16 04:11:04"}}
 	
 ## Tecnologias usadas:
 ![header](https://user-images.githubusercontent.com/90796699/228732700-385f1245-70e2-4afa-8fcb-3838c43cc3d1.png)
@@ -53,12 +28,6 @@ A API de busca de CEP foi desenvolvida com o objetivo de simplificar a integraç
   </tr>
 </table>
 
-## Desenvolvimento concluído.
-
-1) Busca dados de Codigos de Enderecamento-Postal.
-2) Adicionado Validation.
-
 ## Esses recursos estão em desenvolvimento:
 
 - Em desenvolvimento ⚠️
-- Adicionar validacoes.
