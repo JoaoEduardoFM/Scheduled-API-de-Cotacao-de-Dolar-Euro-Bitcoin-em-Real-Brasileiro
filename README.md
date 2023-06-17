@@ -1,5 +1,7 @@
 # consultar cotação atualizada em Scheduled
-![image](https://github.com/JoaoEduardoFM/ScheduledDeCotacao/assets/90796699/bf3a045d-e9bf-4184-9775-1670bbf4546e)
+
+![image](https://github.com/JoaoEduardoFM/Scheduled-API-de-Cotacao-de-Dolar-Euro-Bitcoin-em-Real-Brasileiro/assets/90796699/ad218812-5b8a-43a1-b99c-11c72b55439a)
+
 
  > Status: Em desenvolvimento ⚠️
 
