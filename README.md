@@ -24,7 +24,7 @@ Esta API de cotação de dólar, euro e bitcoin em real brasileiro fornece uma m
     <td>H2</td>
   </tr>
   <tr>
-    <td>11</td>
+    <td>17</td>
     <td>2.5.3</td>
     <td>h2</td>
   </tr>
