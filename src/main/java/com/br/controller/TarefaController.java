@@ -11,11 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.br.model.Btcbrl;
 import com.br.model.Eurbrl;
 import com.br.model.Usdbrl;
-import com.br.service.TerefaService;
 import com.br.service.buscaCotacaoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import lombok.extern.slf4j.Slf4j;
 
 @RestController
 @RequestMapping("/cotacoes")
