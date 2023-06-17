@@ -1,8 +1,6 @@
 package com.br.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.context.event.EventListener;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -18,17 +16,13 @@ import com.br.repository.TarefaRepository;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
 
 @Service
 @Slf4j
 public class TarefaService {
-	
+
 	@Autowired
-	private TarefaRepository tarefaRepository;
-	
-	@Autowired
-	private TarefaService service;
+	private TarefaRepository tarefaRepository;;
 
 	@Autowired
 	private RestTemplate restTemplate;
@@ -42,7 +36,6 @@ public class TarefaService {
 	}
 
 	@Scheduled(cron = "${spring.task.scheduling.cron}")
-	@EventListener(ApplicationReadyEvent.class)
 	public void executeScheduledTasks() throws InterruptedException {
 
 		// Chama o endpoint /dolar ao real
@@ -51,7 +44,7 @@ public class TarefaService {
 				Usdbrl.class);
 		if (responseDolar.getStatusCode() == HttpStatus.OK) {
 			String usdbrl = responseDolar.getBody().getName();
-			String valorusd= responseDolar.getBody().getHigh();
+			String valorusd = responseDolar.getBody().getHigh();
 			log.info("Chamando endpoint /dolar | " + usdbrl + " | valor: " + valorusd);
 
 		}
@@ -62,7 +55,7 @@ public class TarefaService {
 				Btcbrl.class);
 		if (responseReal.getStatusCode() == HttpStatus.OK) {
 			String btcbrl = responseReal.getBody().getName();
-			String valoBtc= responseReal.getBody().getHigh();
+			String valoBtc = responseReal.getBody().getHigh();
 			log.info("Chamando endpoint /bitcoin | " + btcbrl + " | valor: " + valoBtc);
 		}
 
@@ -72,7 +65,7 @@ public class TarefaService {
 				Eurbrl.class);
 		if (responseEuro.getStatusCode() == HttpStatus.OK) {
 			String eurbrl = responseEuro.getBody().getName();
-			String valorEuro= responseEuro.getBody().getHigh();
+			String valorEuro = responseEuro.getBody().getHigh();
 			log.info("Chamando endpoint /euro | " + eurbrl + " | valor: " + valorEuro);
 		}
 	}
