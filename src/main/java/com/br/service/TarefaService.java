@@ -35,7 +35,7 @@ public class TarefaService {
 		tarefaRepository.save(tarefa);
 	}
 
-	@Scheduled(cron = "${spring.task.scheduling.cron}")
+	@Scheduled(cron = "${spring.task.scheduling.cotacoes}")
 	public void executeScheduledTasks() throws InterruptedException {
 
 		// Chama o endpoint /dolar ao real
