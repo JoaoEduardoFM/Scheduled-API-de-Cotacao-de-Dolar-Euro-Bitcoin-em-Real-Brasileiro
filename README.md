@@ -1,10 +1,12 @@
-# consultar cotação atualizada em Scheduled
-![image](https://github.com/JoaoEduardoFM/ScheduledDeCotacao/assets/90796699/bf3a045d-e9bf-4184-9775-1670bbf4546e)
+# Consultar cotação atualizada em Scheduled
+
+![image](https://github.com/JoaoEduardoFM/Scheduled-API-de-Cotacao-de-Dolar-Euro-Bitcoin-em-Real-Brasileiro/assets/90796699/ad218812-5b8a-43a1-b99c-11c72b55439a)
+
 
  > Status: Em desenvolvimento ⚠️
 
 ### É uma aplicação planejada por mim, onde realizo a Integração com o sistema conomia.awesomeapi e busco a cotação atualizada em um Scheduled.
-A "Scheduled De Cotacao" é uma API especialmente projetada para consultar cotações do Real em relação a outras moedas. Ela utiliza agendamento de tarefas para executar a consulta periodicamente e obter as cotações atualizadas.
+Esta API de cotação de dólar, euro e bitcoin em real brasileiro fornece uma maneira simples e padronizada de acessar informações de câmbio atualizadas. Utilizando um escalonador parametrizado por um arquivo YAML, as cotações são buscadas regularmente e disponibilizadas através de endpoints específicos. Utilize esta API para integrar facilmente as cotações em seus aplicativos financeiros, serviços de conversão monetária e outras soluções relacionadas.
 ### Sistema integrado:(https://economia.awesomeapi.com.br/)
 
 ### Retorno exemplo:
@@ -22,7 +24,7 @@ A "Scheduled De Cotacao" é uma API especialmente projetada para consultar cota�
     <td>H2</td>
   </tr>
   <tr>
-    <td>11</td>
+    <td>17</td>
     <td>2.5.3</td>
     <td>h2</td>
   </tr>
